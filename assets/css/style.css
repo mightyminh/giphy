@@ -1,0 +1,38 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+
+}
+
+@font-face {
+	font-family: 'Pokefont';
+	src: url(../PokemonSolid.ttf) format('truetype');
+}
+
+
+h1 {
+	font-family: 'Pokefont';
+	float: left;
+	color: #ffff00;
+	font-size: 50px;
+	margin: 20px;
+	line-height: 150%;
+	text-shadow:
+	1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+}
+
+h2 {
+	font-family: 'Pokefont';
+}
+
+#topicView {
+ 	color: #ffff00;
+	font-size: 50px;
+	margin: 20px;
+	line-height: 150%;
+	text-shadow:
+
+}
+
