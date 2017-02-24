@@ -1,5 +1,4 @@
 
-
 // giphy starts here!
 $(document).ready(function()
 {
@@ -64,7 +63,7 @@ $(document).ready(function()
 
 		$('#gifView').empty();
 		var poke = $(this).attr('data-name');
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + poke + "&api_key=dc6zaTOxFJmzC&limit=10&offset=0";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + poke + "&api_key=dc6zaTOxFJmzC&limit=10&offset=0";
 		console.log()
 
 		//some ajax here
